@@ -19,14 +19,34 @@ header{
     padding: 1.25rem 0;
 }
 
+header .img img{
+    width: 5.5rem;
+    border-radius: 30px;
+}
+
 header h1{
     margin: 0.6rem;
 }
 
+nav ul li{
+    text-decoration: none;
+    font-weight: 200;
+    display: inline;
+    padding: 0.8rem
+}
+
+nav a{
+    color: #f4f4f4;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #ccc;
+}
 main{
     margin: 0 auto;
     text-align: center;
-    width: 50%;
+    width: 70%;
 }
 
 .cards{
@@ -36,8 +56,12 @@ main{
 .card{
     width: 40%;
     display: inline-block;
-    margin: 0.6rem;
-    background-color: burlywood;
+    margin: 0.5rem;
+    background-color: #fff;
+    border-radius: 0.35rem;
+    border: 1px solid rgb(223, 215, 204);
+    box-shadow: 1px  1px 1px 1px rgba(0,0,0,0.1);
+
 }
 
 .card img{
@@ -46,6 +70,24 @@ main{
 
 .card h4{
     font-weight: 800;
+    color: #402e2e;
+}
+
+.card button{
+    padding: 0.7rem;
+    margin-bottom: 0.5rem;
+    background-color: #0056b3;
+    color: #f4f4f4;
+    border-radius: 0.5rem;
+    width: 80%;
+    font-weight: bold;
+    border: 1px solid #fff;
+}
+
+.card button:hover{
+    background-color: #f4f4f4;
+    color: #0056b3;
+    border: 1px solid #0056b3;
 }
 
 footer{
